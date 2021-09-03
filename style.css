@@ -148,9 +148,11 @@ input
 
 .titre_filtres
 {
+    height: 50px;
     margin-right: 10px;
     font-size: 20px;
     font-weight: bold;
+    align-items: center;
 }
 
 .bouton_filtres
@@ -395,7 +397,7 @@ aside
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 80%;
+    height: 300px;
 }
 
 .vieux_port, .img_2_3, .calanques, .img_5_6
@@ -486,16 +488,30 @@ footer
 
 .titre_footer
 {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .a_propos, .nos_hebergements, .assistance
 {
     margin: 50px 10%;
+    width: 33%;
 }
 
-footer > div > a
+.txt_footer
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;   
+}
+
+.txt_footer > a
+{
+    margin-bottom: 20px;
+}
+
+footer > div > div > a
 {
     text-decoration: none;
     color: black;
@@ -511,53 +527,6 @@ footer > div > a
     h1
     {
         font-size: 30px;
-    }
-
-  /*header-nav 425px*/
-  
-    .logo
-    {
-        height: 50px;
-    }
-
-    .header
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 0;
-    }
-
-    .titre_nav
-    {
-        width: auto;
-    }
-
-    .txt_nav
-    {
-        justify-content: space-evenly;
-        width: 100%;
-    }
-
-    .blue
-    {
-        position: absolute;
-        right: 10px;
-        top: -15px;
-    }
-
-    .black
-    {
-        justify-content: center;
-        width: 50%;
-        border-bottom: 2px solid #F2F2F2;
-    }
-
-    .black:hover
-    {
-        border-top: none;
-        border-bottom: 2px solid #0065FC;
-        color: #0065FC;
     }
 
   /*search 425px*/
@@ -685,6 +654,16 @@ footer > div > a
       border-radius: 0;
       width: 100%;
   }
+
+  aside > div > h1
+  {
+      margin-left: 20px;
+  }
+
+  aside > div > i
+  {
+      margin-right: 20px;
+  }
   
   .titre_populaires
   {
@@ -729,7 +708,8 @@ footer > div > a
   #image_activites
   {
       width: 100%;
-      margin: 0;
+      margin-left: 0;
+      margin-right: 0;
   }
   
   .titre_activites
@@ -882,9 +862,58 @@ footer > div > a
         height: 450px;
     }
 
-    footer
+    #image_activites
     {
-        flex-wrap: wrap;
+        margin: 0;
     }
+}
+
+@media screen and (max-width: 768px)
+{
+    .logo
+    {
+        height: 50px;
+    }
+
+    .header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .titre_nav
+    {
+        width: auto;
+    }
+
+    .txt_nav
+    {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .blue
+    {
+        position: absolute;
+        right: 10px;
+        top: -15px;
+    }
+
+    .black
+    {
+        justify-content: center;
+        width: 50%;
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .black:hover
+    {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+    }
+
 }
 
