@@ -879,5 +879,10 @@ footer > div > a
         justify-content: space-evenly;
         height: 450px;
     }
+
+    footer
+    {
+        flex-wrap: wrap;
+    }
 }
 
