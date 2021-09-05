@@ -11,6 +11,13 @@ h1
     font-size: 20px;
 }
 
+.useful_width
+{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*header*/
 
 .header
@@ -495,7 +502,7 @@ footer
 
 .a_propos, .nos_hebergements, .assistance
 {
-    margin: 50px 10%;
+    margin: 30px 10%;
     width: 33%;
 }
 
@@ -503,7 +510,7 @@ footer
 {
     display: flex;
     flex-direction: column;
-    font-size: 10px;   
+    font-size: 12px;   
 }
 
 .txt_footer > a
@@ -811,6 +818,7 @@ footer
 .a_propos, .nos_hebergements, .assistance
 {
     margin: 15px 30px;
+    width: 100%;
 }
 
 .a_propos
