@@ -654,6 +654,11 @@ footer > div > div > a
       font-size: x-small;
       color: #0065FC;
   }
+
+  .afficher_plus
+  {
+      margin: 30px 0 0 30px;
+  }
     
   /*aside 425px*/
   aside
@@ -722,7 +727,6 @@ footer > div > div > a
   .titre_activites
   {
       font-size: 30px;
-      margin-top: 30px;
   }
   
   .paragraphe_activites
@@ -811,14 +815,14 @@ footer
 
 .titre_footer
 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 }
 
 .a_propos, .nos_hebergements, .assistance
 {
-    margin: 15px 30px;
-    width: 100%;
+    margin: 0 0 0 30px;
+    width: auto;
 }
 
 .a_propos
